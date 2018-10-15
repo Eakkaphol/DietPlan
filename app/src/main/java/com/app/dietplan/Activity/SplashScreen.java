@@ -44,6 +44,7 @@ public class SplashScreen extends AppCompatActivity {
             Log.d("diet_id_notification", diet_id);
         }
 
+        //Check internet
         if (Method.isNetworkAvailable(SplashScreen.this)) {
             new Handler().postDelayed(new Runnable() {
 
